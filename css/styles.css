@@ -255,3 +255,23 @@ figure {
      padding-top: 1em;
    }
 }
+@media screen and (min-width: 992px){
+  main {
+    display: grid;
+    grid-template-columns: 3;
+  }
+  .movie-overview {
+    display: none;
+  }
+  .movie:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .movie-poster:first-of-type {
+    display: none;
+  }
+  .movie-backdrop {
+    display: block;
+  }
+
+}
