@@ -1,0 +1,78 @@
+
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+
+
+ html {
+  box-sizing: border-box;
+  font-family: 'JelleeRoman';
+  font-size: 100%;
+  color: #333333;
+  background-color: rgb(236, 236, 236);
+}
+
+  body {
+  margin: 0;
+	padding: 0;
+  }
+
+.site-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgb(102, 9, 9);
+  color: white;
+  display: grid
+}
+.site-nav {
+  text-align: right;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+
+}
+a:hover {
+  color: red;
+}
+
+a , .restaurant-name {
+  text-decoration: none;
+}
+
+
+.tile {
+    // width: 300px;
+    // margin: 20px auto;
+    // height: 300px;
+    background-color: white ;
+
+    img {
+      max-width: 100%;
+
+
+
+    }
+
+
+}
+.tile-container {
+  display: grid;
+  grid-gap: 1px;
+  // grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  // max-width: 50%;
+}
